@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    font-family: Poppins, sans-serif;
+}
+
+.profile-container {
+    width: 80%;
+    margin: 2rem auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+    .header-container {
+        padding: 1rem;
+        border-radius: 1rem;
+        width: 100%;
+        display: flex;
+        margin-bottom: 5rem;
+
+        .header-container__profile-picture {
+            position: relative;
+            display: block;
+            width: 25%;
+            border-radius: 1rem;
+            object-fit: contain;
+            margin-right: 2rem;
+        }
+
+        .header-container__profile-description {
+            display: flex;
+            flex-direction: column;
+            width: 65%;
+
+            .header-container__profile-description__top {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .header-container__profile-description__top ul {
+                list-style-type: none;
+                li{
+                    color: #333;
+                    font-size: 1.4rem;
+                }
+            }
+        }
+
+        .header-container__profile-description h1 {
+            font-size: 2.4rem;
+            color: #111;
+        }
+
+        .header-container__profile-description h2 {
+            font-size: 2.0rem;
+            color: #444;
+        }
+
+        .header-container__profile-description p {
+            font-size: 1.3rem;
+            color: #444;
+            margin-top: 1.5rem;
+        }
+    }
+
+    .skills {
+        width: 30%;
+        margin-right: 2.5rem;
+        display: flex;
+        flex-direction: column;
+
+        .skills__front-end {
+            width: 90%;
+            padding: 1rem;
+            border-radius: 1rem;
+            margin-bottom: 1rem;
+            display: flex;
+            flex-direction: column;
+
+            .title {
+                text-transform: uppercase;
+                color: #111;
+                font-size: 1.2rem;
+            }
+
+            .skills__front-end__container {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                flex-direction: column;
+
+                .skill-container {
+                    margin: 1.5rem 0;
+
+                    .tech {
+                        display: block;
+                        width: 20%;
+                        font-size: 1.6rem;
+                        color: #4F4F4F;
+                        text-transform: uppercase;
+                        margin-bottom: 1rem;
+                    }
+
+                    .level-bar-place-holder {
+                        display: block;
+                        border-radius: 1.5rem;
+                        background-color: rgba(68, 68, 68, 0.434);
+                        width: 100%;
+                        position: relative;
+                        height: 0.5rem;
+
+                        .level-bar {
+                            top: 0;
+                            left: 0;
+                            width: 50%;
+                            height: 100%;
+                            border-radius: 1.5rem;
+                            background-color: #2F80ED;
+                        }
+                    }
+                }
+            }
+        }
+
+        .hobbies {
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow: hidden;
+
+            .title {
+                align-self: flex-start;
+                text-transform: uppercase;
+                text-transform: uppercase;
+                color: #111;
+                font-size: 1.2rem;
+            }
+
+            .hobbies-container {
+                width: 90%;
+                border-radius: 1.2rem;
+                display: flex;
+                flex-direction: column;
+                align-self: flex-start;
+                overflow: hidden;
+
+                .hobbie-img {
+                    height: 15.5rem;
+                    position: relative;
+                    margin-bottom: 1rem;
+                    object-fit: cover;
+                    width: 100%;
+                    margin-top: 1rem;
+                    transition: 0.5s;
+                    &:hover{
+                        transform: scale(1.05);
+                    }
+                }
+
+                .hobbie-name {
+                    font-size: 1.4rem;
+                    color: #333;
+                    margin-bottom: 1rem;
+                }
+
+                .hobbie-description {
+                    font-size: 1.25rem;
+                    color: #555555;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+
+    .main-container {
+        width: 64%;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+
+        .main-container__blog-last-post {
+            display: flex;
+            flex-direction: column;
+
+            .title {
+                color: #111;
+                font-size: 2rem;
+            }
+
+            .blog-last-post__cover {
+                display: flex;
+                margin: 2rem 0 3.5rem 0;
+
+                .post-title {
+                    display: block;
+                    width: 40%;
+                    font-size: 2.4rem;
+                    color: #333;
+                    margin-right: 5%;
+                }
+
+                .post-cover-img {
+                    border-radius: 1rem 0 0 1rem;
+                    object-fit: contain;
+                    width: 50%;
+                    clip-path: circle(92% at 22% 0);
+                }
+            }
+
+            p {
+                font-size: 1.4rem;
+                color: #4F4F4F;
+                margin: 0.5rem 0;
+            }
+
+            a {
+                color: #2faaedc4;
+                align-self: center;
+                font-size: 1.6rem;
+                margin-top: 2rem;
+
+                &:hover {
+                    color: #2faaed;
+                }
+            }
+        }
+
+        .main-container__experiences {
+            display: flex;
+            flex-direction: column;
+            border-radius: 1.2rem;
+            margin-top: 6rem;
+
+            .experiences__experience {
+                margin: 2rem 0;
+            }
+
+            h1 {
+                color: #111;
+                font-size: 2rem;
+            }
+
+            .header-3 {
+                font-size: 1.3rem;
+                color: #666;
+                margin: 0.5rem 0;
+            }
+
+            .header-2 {
+                font-size: 1.4rem;
+                color: #222;
+                margin-bottom: 1.5rem;
+            }
+
+            .paragraph {
+                margin-top: 2.0rem;
+                margin-bottom: 1.5rem;
+                color: #333;
+            }
+        }
+    }
+
+    .projects-section-controller {
+        padding: 1rem;
+        border-radius: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 4rem 0;
+
+        .project-section-controller__tags-container {
+            display: flex;
+            margin-top: 1rem;
+
+            .btn-tags {
+                margin: 0 1.5rem;
+                border: 0.1rem solid #2faaed;
+                padding: 1rem 2rem;
+                color: #2faaed;
+                border-radius: 1rem;
+                background-color: #fff;
+                transition: 0.2s;
+                font-weight: 700;
+                cursor: pointer;
+
+                &:first-child {
+                    margin-left: 0 !important;
+                }
+
+                &:hover {
+                    background-color: #2faaed;
+                    color: #fff;
+                }
+            }
+
+
+        }
+    }
+
+    .projects-section-container {
+        display: flex;
+        justify-content: space-between;
+
+        .project {
+            width: 30%;
+            padding: 1rem;
+            border-radius: 1rem;
+            display: grid;
+            flex-direction: column;
+            box-shadow: 0.2rem 0.3rem 0.5rem rgba(68, 68, 68, 0.222);
+            transition: 0.5s;
+            &:hover{
+                transform: translateY(-10px);
+            }
+
+
+            .project-img {
+                border-radius: 1rem;
+                object-fit: contain;
+                margin-bottom: 1.5rem;
+                width: 100%;
+            }
+
+            .tag-list {
+                display: flex;
+                list-style-type: none;
+                margin-bottom: 1.5rem;
+
+                li {
+                    font-size: 1.2rem;
+                }
+            }
+
+            .project-title {
+                color: #333;
+                font-size: 1.4rem;
+                margin-bottom: 1.5rem;
+            }
+
+            p {
+                margin-bottom: 1.5rem;
+                font-size: 1.4rem;
+                color: #444;
+            }
+
+            .project-buttons {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+
+                button {
+                    border: 0.1rem solid #2faaed;
+                    border-radius: 1rem;
+                    font-size: 1.4rem;
+                    font-weight: 700;
+                    position: relative;
+                    display: block;
+                    padding: 1rem 2rem;
+                    cursor: pointer;
+                }
+
+                .demo {
+                    background-color: #2faaed;
+                    color: #fff;
+                    &:hover{
+                        background-color: #fff;
+                        color: #2faaed;
+                    }
+                }
+
+                .code {
+                    background-color: #fff;
+                    color: #2faaed;
+                    &:hover{
+                        background-color: #2faaed;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        width: 100%;
+        position: relative;
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
+        h3{
+            font-family: Poppins, sans-serif;
+            color: #333;
+            font-size: 1.4rem;
+        }
+    }
+}
+
+.active {
+    background-color: #2faaed !important;
+    color: #fff !important;
+}
