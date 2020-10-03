@@ -1,7 +1,7 @@
 const headerComponent = {
     template: `
     <div class="header-container">
-      <img src="IMG/pexels-luis-quintero-1408196.jpg" alt="Man Smiling" class="header-container__profile-picture">
+      <img src="https://avatars3.githubusercontent.com/u/62727833?s=460&u=1c3b3565a90b80442fbb2d0b01f45e816a59ddea&v=4" alt="Man Smiling" class="header-container__profile-picture">
       <div class="header-container__profile-description">
         <div class="header-container__profile-description__top">
           <div class="left-side">

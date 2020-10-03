@@ -1,19 +1,19 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center"><a href="https://eufraniodiogo.github.io/">{Project Name}</a></h1>
+<h1 align="center"><a href="https://eufraniodiogo.github.io/portfolio">Portfolio Challenge</a></h1>
 <div align="center">
   <h3>
-    <a href="https://eufraniodiogo.github.io/">
+    <a href="https://eufraniodiogo.github.io/portfolio">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/EufranioDiogo/">
+    <a href="https://github.com/EufranioDiogo/portfolio">
       Solution
     </a>
   </h3>
 </div>
 
-<p>{ Project Desc }</p>
+<p>A example portfolio web site done as a challenge for <a target="_blank" href="https://devchallenges.io"></a>devchallenges.io</p>
 
 ## Table of Contents
 
@@ -27,18 +27,18 @@
 ![screenshot1](imgs)
 
 - Where can I see your demo?<br>
-  [Here](https://eufraniodiogo.github.io/)
+  [Here](https://eufraniodiogo.github.io/portfolio)
 - What was your experience?<br>
-  It was a very cool project to pratice and learn new stuff!
+  It was a very cool project to pratice and learn more about CSS.
 - What have you learned/improved?<br>
-  I learned more about working with apis and asynchronous functions in JavaScript.
+  I learned more about CSS and VUE.js
 
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- JS
+- Vue.js
 - HTML
 - CSS
 
